@@ -1,5 +1,6 @@
 import 'package:catalog_app/pages/home.dart';
 import 'package:catalog_app/pages/login.dart';
+import 'package:catalog_app/pages/routs.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -22,8 +23,8 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         "/": (context) => LoginPage(),
-        "/home": (context) => HomePage(),
-        "/login": (context) => LoginPage(),
+        MyRoutes.homeroute: (context) => HomePage(),
+        MyRoutes.loginroute: (context) => LoginPage(),
       },
     );
   }
