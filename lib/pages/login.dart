@@ -1,4 +1,3 @@
-import 'package:catalog_app/pages/home.dart';
 import 'package:catalog_app/pages/routs.dart';
 import 'package:flutter/material.dart';
 
