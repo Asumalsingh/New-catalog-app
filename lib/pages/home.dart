@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
   String name = 'codepur';
   @override
   Widget build(BuildContext context) {
+    final dummyList = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -24,10 +25,12 @@ class _HomePageState extends State<HomePage> {
       ),
       body: ListView.builder(
         padding: EdgeInsets.all(10.0),
-        itemCount: CatalogModel.items.length,
+        //itemCount: CatalogModel.items.length,
+        itemCount: dummyList.length,
         itemBuilder: (context, index) {
           return ItemWidget(
-            item: CatalogModel.items[index],
+            // item: CatalogModel.items[index],
+            item: dummyList[index],
           );
         },
       ),
