@@ -1,3 +1,5 @@
+import 'package:catalog_app/Models/catalog.dart';
+import 'package:catalog_app/Models/items_widgets.dart';
 import 'package:flutter/material.dart';
 
 import 'drawer.dart';
@@ -20,10 +22,14 @@ class _HomePageState extends State<HomePage> {
           'Home page',
         ),
       ),
-      body: Material(
-        child: Center(
-          child: Text("hello and welcome $n days flutter courese on $name"),
-        ),
+      body: ListView.builder(
+        padding: EdgeInsets.all(10.0),
+        itemCount: CatalogModel.items.length,
+        itemBuilder: (context, index) {
+          return ItemWidget(
+            item: CatalogModel.items[index],
+          );
+        },
       ),
       drawer: MyDrawer(),
     );
