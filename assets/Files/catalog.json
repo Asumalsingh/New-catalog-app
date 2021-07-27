@@ -15,7 +15,7 @@
             "desc": "Google pixel phone 5 generation",
             "price": 699,
             "color": " #00ac51",
-            "image": ""
+            "image": "https://bingkart.com/4590-large_default/google-pixel-5-5g-128gb-just-black.jpg"
         },
         {
             "id":3,
@@ -23,7 +23,7 @@
             "desc": " apple macbook air with apple silicone",
             "price": 1099,
             "color": " #e0bfae",
-            "image": ""
+            "image": "https://rukminim1.flixcart.com/image/832/832/khdqnbk0/computer/5/d/e/apple-original-imafxfyqkdfxqjab.jpeg?q=70"
         },
         {
             "id":4,
@@ -31,7 +31,7 @@
             "desc": "Sony plastation 5th generation",
             "price": 500,
             "color": "#544ee4",
-            "image": ""
+            "image": "https://5.imimg.com/data5/SELLER/Default/2020/11/OG/PE/FW/51145740/sony-playstation-5-500x500.jpg"
         },
         {
             "id":5,
@@ -39,7 +39,7 @@
             "desc": "Apple airpods pro 1st generation",
             "price": 200,
             "color": "#e3e4e9",
-            "image": ""
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71zny7BTRlL._SL1500_.jpg"
         },
         {
             "id":6,
@@ -47,7 +47,7 @@
             "desc": "Apple ipad pro 2020 edition",
             "price": 800,
             "color": "#f73964",
-            "image": ""
+            "image": "https://www.reliancedigital.in/medias/iPad-Pro-12-9-CELL-1TB-SG-2020-MXF92HN-A-Tablets-491691572-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2Njk3OHxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaDFiLzkyNzA2OTUyMzE1MTguanBnfDk4MDNlNmE2NGI1NTQxODdkMjc3MDE0MDJlNDM2ZTFhODFiOGQyMjRiMjRiZjY3NjRjMmQwZTcwYjNjYzhkYjA"
         },
         {
             "id":7,
@@ -55,7 +55,7 @@
             "desc": "Samsung Galaxy S21 ultra",
             "price": 1299,
             "color": " #1c1c1c",
-            "image": ""
+            "image": "https://cdn.shopify.com/s/files/1/0245/9382/5867/products/91BAitkzszL._SL1500_1200x.jpg?v=1617105721"
         },
         {
             "id":8,
@@ -63,7 +63,7 @@
             "desc": "Samsung galaxy S21 2021 edition",
             "price": 899,
             "color": "",
-            "image": ""
+            "image": "https://cdn.shopify.com/s/files/1/0245/9382/5867/products/91v6gUJghLL._SL1500_0c64d2a2-c231-469d-ab41-0086883b0bdc_1200x.jpg?v=1617105824"
         }
         
     ]
