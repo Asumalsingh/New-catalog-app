@@ -45,16 +45,40 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
-          ? ListView.builder(
-              padding: EdgeInsets.all(10.0),
-              //itemCount: CatalogModel.items.length,
-              itemCount: CatalogModel.items.length,
-              itemBuilder: (context, index) {
-                return ItemWidget(
-                  // item: CatalogModel.items[index],
-                  item: CatalogModel.items[index],
+          ? GridView.builder(
+              padding: EdgeInsets.all(10),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                mainAxisSpacing: 16,
+                crossAxisSpacing: 16,
+              ),
+              itemBuilder: (BuildContext, index) {
+                final item = CatalogModel.items[index];
+                return Card(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8)),
+                  child: GridTile(
+                    header: Container(
+                      child: Text(item.name,
+                          style: TextStyle(color: Colors.white)),
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: Colors.deepPurple,
+                      ),
+                    ),
+                    footer: Container(
+                      child: Text(item.price.toString(),
+                          style: TextStyle(color: Colors.white)),
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                      ),
+                    ),
+                    child: Image.network(item.image),
+                  ),
                 );
               },
+              itemCount: CatalogModel.items.length,
             )
           : Center(
               child: CircularProgressIndicator(),
