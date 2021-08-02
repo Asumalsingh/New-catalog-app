@@ -1,13 +1,13 @@
 {
 
-    "products":[
+    "products":[ 
         {
             "id":1,
             "name": "iphone 12 pro",
             "desc": "i phone 12 pro of 12th generation",
             "price": 999,
             "color": "#33505a",
-            "image": "https://www.reliancedigital.in/medias/Apple-12-Pro-Smartphones-491901565-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjU0MDV8aW1hZ2UvanBlZ3xpbWFnZXMvaDFjL2g1Yy85NDA3ODE2Njk1ODM4LmpwZ3wwOWJjNDVhM2NhMjYwNzBiNmFjM2Y3OWNjOWViYzg3MzQxZGZlMTEzYWQ0MWI1YTUyOTc2OTBkY2RkZjg0MTJm"
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSBhiDRGE9LRpr77VHL2UwZMJFwTihoR8qqa9i-WBXsIiK23FkRjhQ&usqp=CAc"
         },
         {
             "id":2,
