@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:catalog_app/Widgets/routs.dart';
 import 'package:catalog_app/home_widgets/catalog_header.dart';
 import 'package:catalog_app/home_widgets/catalog_list_&_Item.dart';
 import 'package:flutter/cupertino.dart';
@@ -47,6 +48,11 @@ class _HomePageState extends State<HomePage> {
     //final dummyList = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
         backgroundColor: MyTheme.creamColor,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
+          child: Icon(CupertinoIcons.cart),
+          backgroundColor: MyTheme.darkBluishColor,
+        ),
         body: SafeArea(
           child: Container(
             padding: Vx.m16,
